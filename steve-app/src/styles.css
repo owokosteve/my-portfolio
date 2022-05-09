@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+/***BOX MODEL***/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+:root {
+    --dark-color: #222;
+    --light: #999;
+    --primary-color: #2b3542;
+    --secondary-color: #13c4a5;
+    --tertiary-color: #bf2121;
+}
+
+html body {
+    height: 100%; 
+}
+
+body {
+    color: var(--dark-color);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
