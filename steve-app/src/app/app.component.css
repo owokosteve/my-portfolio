@@ -1,7 +1,21 @@
-/* HEADER SECTION */
-header { background-color: var(--dark-color) !important;}
+/* HEADER */
+header { background-color: var(--dark) !important; opacity: .7;}
 header .nav-link { color: var(--light); }
 header .nav-link:hover { color: white; }
 .custom-toggler.navbar-toggler { border:1px solid var(--light) }
 .custom-toggler .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
+/* MAIN */
+/* hero-section*/
+#bg-img {
+    background-image: url('src/assets/images/bg-steve.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+}
+#hero h2 { color: white; width: max-content; font-size: 2.1rem; font-weight: 400;}
+#hero h2:hover { color: var(--secondary-color); cursor: pointer;}
+#hero span { color: var(--light); align-items: center; font-size: 1.3rem; margin-left: 3rem;}
+#hero div { width: max-content; margin-top: 10%; margin-left: 10%; }
+
+/* FOOTER */
+footer { background-color: var(--dark); color: var(--light);}
