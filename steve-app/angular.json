@@ -30,7 +30,9 @@
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/normalize.css/normalize.css",
-              "src/styles.css"
+              "src/small.css",
+              "src/medium.css",
+              "src/large.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
