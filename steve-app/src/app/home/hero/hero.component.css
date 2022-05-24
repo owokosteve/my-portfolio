@@ -1,0 +1,6 @@
+h2 { color: white; font-size: 2.3rem; font-weight: 400; font-family: 'Pacifico', cursive; }
+h2:hover { color: var(--secondary); cursor: pointer; }
+span { color: var(--light); font-size: 1.3rem; }
+
+h2, span { position: absolute; top: 30%; }
+span { top: 40%;}

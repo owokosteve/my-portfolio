@@ -13,9 +13,9 @@
 :root {
     --dark: #222;
     --light: #999;
-    --primary-color: #2b3542;
-    --secondary-color: #13c4a5;
-    --tertiary-color: #bf2121;
+    --primary: #2b3542;
+    --secondary: #13c4a5;
+    --tertiary: #bf2121;
 }
 
 html body {
