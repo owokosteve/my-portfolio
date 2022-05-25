@@ -1,6 +1,6 @@
 const blog = [
     {
-        "id": "1",
+        "id": 1,
         "title": "",
         "category": "Technology",
         "img-url": "http:www.xyz.com",

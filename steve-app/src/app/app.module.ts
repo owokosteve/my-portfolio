@@ -6,8 +6,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { NavComponent } from './home/nav/nav.component';
-import { FooterComponent } from './home/footer.component';
-import { HeroComponent } from './home/hero/hero.component';
+import { RouterModule } from '@angular/router';
+import { appRoutes } from './routes';
+import { HomeComponent } from './home/home.component';
+import { Error404Component } from './errors/404.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,13 @@ import { HeroComponent } from './home/hero/hero.component';
     AboutComponent,
     BlogComponent,
     NavComponent,
-    FooterComponent,
-    HeroComponent
+    HomeComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
