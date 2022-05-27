@@ -1,0 +1,7 @@
+#hero { position: relative; }
+#hero img { width: 100%; height: auto;}
+h2 { color: white; font-family: 'Pacifico', cursive;}
+h2:hover { color: var(--secondary); cursor: pointer; }
+span { color: var(--light); margin-top: 3.3rem; }
+footer { background-color: var(--dark); color: white; }
+footer p { font-family: 'Roboto Slab', serif; font-size: .85em; font-weight: 300; }

@@ -13,9 +13,9 @@
 :root {
     --dark: #222;
     --light: #999;
-    --primary-color: #2b3542;
-    --secondary-color: #13c4a5;
-    --tertiary-color: #bf2121;
+    --primary: #2b3542;
+    --secondary: #13c4a5;
+    --tertiary: #bf2121;
 }
 
 html body {
@@ -23,10 +23,16 @@ html body {
 }
 
 body {
+    background-color: #f1f1f1;
     color: var(--dark);
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.limited { max-width: 1200px; margin: auto;}
+.limited { max-width: 1366px; margin: auto; }
+
+/* HERO SECTION */
+#hero h2 { font-size: 1.7rem; position: absolute; top: 15%; left: 30%; }
+#hero figcaption { font-size: .7em; font-style: italic; text-align: end;}
+#hero span { font-size: 1.1rem; position: absolute; top: 33.3%; left: 36%; margin-top: 1rem; }
