@@ -30,4 +30,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.limited { max-width: 1200px; margin: auto;}
+.limited { max-width: 1366px; margin: auto; }
+
+/* HERO SECTION */
+#hero h2 { font-size: 1.7rem; position: absolute; top: 15%; left: 30%; }
+#hero figcaption { font-size: .7em; font-style: italic; text-align: end;}
+#hero span { font-size: 1.1rem; position: absolute; top: 33.3%; left: 36%; margin-top: 1rem; }
