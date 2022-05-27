@@ -3,4 +3,6 @@
     #hero span {position: absolute; top: 45%; left: 42%; }
     #hero figcaption { font-size: .85em; font-style: italic; text-align: end;}
 
+    #about { margin: 3rem; background-color: white; padding: 2rem;}
+
 }
