@@ -32,7 +32,13 @@ body {
 
 .limited { max-width: 1366px; margin: auto; }
 
+/* NAV SECTION */
+header .nav-link { text-align: center;}
+
 /* HERO SECTION */
 #hero h2 { font-size: 1.7rem; position: absolute; top: 15%; left: 30%; }
 #hero figcaption { font-size: .7em; font-style: italic; text-align: end;}
 #hero span { font-size: 1.1rem; position: absolute; top: 33.3%; left: 36%; margin-top: 1rem; }
+
+/* ABOUT SECTION */
+#about { margin: 1.3rem 1rem; background-color: white;}

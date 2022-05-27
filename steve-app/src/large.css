@@ -2,4 +2,5 @@
     #hero h2 { font-size: 2.5rem; position: absolute; top: 30%; left: 40%; }
     #hero figcaption { text-align: right; font-style: italic; font-size: .8rem; }
     #hero span { font-size: 1.3rem; position: absolute; top: 43%; left: 44%; }
+    #about { margin: 4rem 10rem; background-color: white;}
 }
