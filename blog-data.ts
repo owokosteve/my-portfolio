@@ -1,13 +1,12 @@
 const blog = [
     {
         "id": 1,
-        "title": "",
-        "category": "Technology",
+        "title": "Good Programmers are Craftspeople",
+        "category": "Engineering",
         "img-url": "http:www.xyz.com",
-        "gravatar-url": "",
         "author": "Stephen Otieno",
-        "date": new Date(),
-        "duration": "",
+        "date-posted": new Date(),
+        "read-time": "3 Minutes",
         "content": ""
     }
 ]
