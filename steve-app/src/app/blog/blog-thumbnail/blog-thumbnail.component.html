@@ -1,0 +1,11 @@
+<div class="card" *ngFor="let blog of blogs">
+    <div class="card-body">
+        <h5 class="card-title"><a href="#">{{blog.title}}</a></h5>
+        <span class="card-link text-muted">Read time:{{blog.readTime}} min</span>
+        <span class="card-link text-muted">By: {{blog.author}}</span>
+        <p class="card-text">{{blog.content}}</p>
+        <span class="d-block"><a href="#" class="card-link">Continue Reading --></a></span>
+        <a href="#" class="card-link"><i class="bi bi-clock"></i>{{blog.datePosted}}</a>
+        <a href="#" class="card-link"><i class="bi bi-chat"></i>0 Comments</a>
+    </div>
+</div>

@@ -13,8 +13,5 @@ main li { margin-top: .4em;}
 
 #about a:hover {
     text-decoration: underline;
-}
-
-#about a:visited {
     color: var(--tertiary);
 }

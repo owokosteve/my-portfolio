@@ -1,0 +1,8 @@
+.card { max-width: 400px; min-height: auto; }
+.card-title a{ text-decoration: none; color: var(--primary); font-weight: 400; }
+.card-title a:hover { color: var(--secondary); }
+.card-text { color: var(--dark); opacity: .8;}
+.card-link { color: var(--primary); text-decoration: none;}
+.card-link:hover { color: var(--secondary);}
+span .card-link { text-decoration: none; color: var(--secondary);}
+span .card-link:hover { text-decoration: underline; color: var(--secondary);}
