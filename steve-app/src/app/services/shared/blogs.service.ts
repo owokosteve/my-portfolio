@@ -2,9 +2,12 @@ import { Injectable } from "@angular/core"
 import { BLOGS } from 'blog-data'
 
 
-@Injectable()
-export class BlogsService {
-    getBlogs() {
+@Injectable({
+    providedIn: 'root'
+})
+export class BlogService {
+    getBlogs(): any[] {
+
         return BLOGS
     }
 }

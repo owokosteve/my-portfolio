@@ -3,16 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AboutComponent } from './about/about.component';
-import { NavComponent } from './home/nav/nav.component';
+import { AboutComponent } from './components/about/about.component';
+import { NavComponent } from './components/shared/nav/nav.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './routes';
-import { HomeComponent } from './home/home.component';
-import { Error404Component } from './errors/404.component';
-import { BlogsService } from './shared/blogs.service';
-import { BlogListComponent } from './blog/blog-list/blog-list.component';
-import { BlogThumbnailComponent } from './blog/blog-thumbnail/blog-thumbnail.component';
-import { BlogDetailsComponent } from './blog/blog-details/blog-details.component';
+import { HomeComponent } from './components/home/home.component';
+import { Error404Component } from './components/shared/errors/404.component';
+import { BlogListComponent } from './components/blog/blog-list/blog-list.component';
+import { BlogDetailsComponent } from './components/blog/blog-details/blog-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +20,6 @@ import { BlogDetailsComponent } from './blog/blog-details/blog-details.component
     HomeComponent,
     Error404Component,
     BlogListComponent,
-    BlogThumbnailComponent,
     BlogDetailsComponent
   ],
   imports: [
@@ -30,7 +27,7 @@ import { BlogDetailsComponent } from './blog/blog-details/blog-details.component
     NgbModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [BlogsService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
