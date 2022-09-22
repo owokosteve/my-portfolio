@@ -14,8 +14,8 @@
     --dark: #222;
     --light: #999;
     --primary: #2b3542;
-    --secondary: #13c4a5;
-    --tertiary: #bf2121;
+    --secondary: #B54141;
+    --tertiary: #13c4a5;
 }
 
 html body {
@@ -29,6 +29,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+h1,h2,h3,h4 { color: var(--primary);}
 
 .limited { max-width: 1366px; margin: auto; }
 

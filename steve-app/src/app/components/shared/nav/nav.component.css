@@ -1,5 +1,5 @@
 header { background-color: var(--dark); }
-header .nav-link { color: var(--light); font-family: 'Roboto Slab', serif; font-size: .85rem; font-weight: 600; text-transform: uppercase; padding: .8em .85em; letter-spacing: 1px; line-height: 1.2; }
+header .nav-link { color: var(--light); font-family: 'Roboto Slab', serif; font-size: .85rem; font-weight: 700; text-transform: uppercase; padding: .8em .85em; letter-spacing: 1px; }
 header .nav-link:hover { color: white; }
 .custom-toggler.navbar-toggler { border:1px solid var(--light); background-color: var(--dark); }
 .custom-toggler .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
