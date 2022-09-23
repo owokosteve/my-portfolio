@@ -3,17 +3,17 @@ import { BlogService } from 'src/app/services/shared/blogs.service';
 
 @Component({
   template: `
-    <div class="container">
+    <div class="container-xl">
       <section>
       </section>
       <section id="list">
         <div class="card shadow-sm" *ngFor="let blog of blogs">
-          <div class="card-body">
+          <div class="card-header">
               <h5 class="card-title"><a href="#">{{ blog.title }}</a></h5>
               <span class="card-link small text-muted">{{ blog.readTime }} min read</span>
-              <hr>
-              <p class="card-text">{{ blog.content }}</p>
-              <span class="d-block"><a href="#" class="card-link">Continue Reading --></a></span>
+          </div>
+          <div class="card-body">
+              <p class="card-text">{{ blog.content }}<span><a href="#" class="card-link">Read more</a></span></p>
           </div>
           <div class="card-footer">
             <a href="#" class="card-link small"><i class="bi bi-calendar"></i>{{ blog.datePosted }}</a>
