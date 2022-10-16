@@ -1,6 +1,6 @@
 import { Routes } from "@angular/router";
 import { AboutComponent } from "./components/about/about.component";
-import { BlogListComponent } from "./components/blog/blog-list/blog-list.component";
+import { BlogListComponent } from "./components/blog/blog-list.component";
 import { Error404Component } from "./components/shared/errors/404.component";
 import { HomeComponent } from "./components/home/home.component";
 
