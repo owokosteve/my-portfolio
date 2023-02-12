@@ -48,8 +48,6 @@ header .nav-link { text-align: center;}
 
 #blog-list { 
     display: grid;
-    grid-auto-columns: auto;
-    grid-auto-rows: auto;
     margin-top: 70px;
     gap: 30px;
   }
