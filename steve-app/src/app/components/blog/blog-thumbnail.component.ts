@@ -5,7 +5,7 @@ import { Component, Input } from "@angular/core";
     template: `
         <div class="card">
             <div class="card-header">
-                <h5 class="card-title"><a class="#" href="#">{{ blog.title }}</a></h5>
+                <h5 class="card-title"><a href="#">{{ blog.title }}</a></h5>
                 <span class="card-link small text-muted">{{ blog.readTime }} min read</span>
             </div>
             <div class="card-body">
@@ -18,7 +18,7 @@ import { Component, Input } from "@angular/core";
         </div>
     `,
     styles: [`
-        .card { width: 350px; max-height: 500px; }
+        .card { max-width: 400px; max-height: 500px; }
         .card-header { background-color: white; border-bottom: 0.01rem solid rgb(238, 233, 233);}
         .card-title a { text-decoration: none; color: var(--primary); font-weight: 400; line-height: 1.5; }
         .card-title a:hover { color: var(--secondary); }

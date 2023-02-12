@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { BlogService } from 'src/app/services/shared/blogs.service';
 
 @Component({
   templateUrl: './home.component.html',
@@ -6,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private blogService: BlogService) { }
 
+  blogs: any
+  
   ngOnInit(): void {
+    this.blogs = this.blogService.getBlogs()
   }
 
 }

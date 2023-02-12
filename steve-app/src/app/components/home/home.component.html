@@ -1,10 +1,45 @@
+<!-- HERO SECTION -->
 <section>
-    <div id="hero">
+    <div id="hero" class="mb-3">
         <figure>
             <img src="/assets/images/steve-bg.png" alt="Elephants walking near a mountain" width="1200" height="450">
             <figcaption>Elephants grazing near Mt.Kilimanjaro.</figcaption>
         </figure>
         <h2 id="my-title">Stephen Otieno</h2>
         <span id="my-role">Web Developer</span>
+    </div>
+</section>
+
+<!-- INTRO SECTION -->
+<section>
+    <div class="container my-5 p-5" id="intro">
+        <h3>Hello world!</h3>
+        <p>Join me as I embark into the exciting world of web development. I’m passionate about making a difference into the tech industry and I’m always excited to share my ideas, tips and tricks with others. I hope to provide a unique and informative perspective on all things web development.</p>
+    </div>
+</section>
+
+<!-- BLOG SECTION -->
+<section>
+    <div *ngFor="let blog of blogs" class="container-fluid">
+        <div class="card shadow-lg">
+            <div class="row p-3">
+                <div class="col-md-8">
+                    <h4 class="card-title">{{ blog.title }}</h4>
+                    <span class="card-link small text-muted">{{ blog.readTime }} minutes read.</span>
+                    <p>A craftsman is a person who is highly skilled at a particular task whereby they
+                         understand their tools well. In the programming world, it's no different,  
+                         a good programmer is often compared to a craftsman. Just as a craftsman uses 
+                         their knowledge, experience, and tools to create something of value, 
+                         a good programmer applies their technical expertise to build software.</p>
+                    <a href="#" class="card-link small"><i class="bi bi-calendar"></i>{{ blog.datePosted }}</a>
+                    <a href="#" class="card-link small"><i class="bi bi-chat"></i>0 Comments</a>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="/assets/images/Kings-Palace-in-Rwanda.jpg" class="img-fluid" alt="" width="400">
+                    </figure>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

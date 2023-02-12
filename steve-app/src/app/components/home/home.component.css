@@ -2,4 +2,7 @@
 #hero img { width: 100%; height: auto;}
 h2 { color: white; font-family: 'Pacifico', cursive;}
 h2:hover { color: var(--secondary); cursor: pointer; }
+#intro { background-color: white;}
+h3 { font-size: 2.1rem; font-weight: 400; margin-bottom: 20px;}
+p { color: #444; font-size: 1.1rem; line-height: 1.5;}
 span { color: var(--light); margin-top: 3.3rem; }
